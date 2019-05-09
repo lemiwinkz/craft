@@ -19,8 +19,11 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "craftcms/cms": "^3.0.0",
+    "craftcms/cms": "dev-feature/tests#66acfeacf245c70fee9d4a673f8d56dad8e3dda8",
     "vlucas/phpdotenv": "^2.4.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "^3.0.0"
   },
   "autoload": {
     "psr-4": {
